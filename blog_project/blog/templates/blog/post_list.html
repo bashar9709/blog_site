@@ -1,0 +1,15 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+  <div class="post-list">
+    <h2>Posts</h2>
+    <a href="{% url 'post_new' %}">New Post</a>
+    <ul>
+      {% for post in posts %}
+        <li>
+          <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

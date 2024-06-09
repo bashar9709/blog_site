@@ -1,0 +1,137 @@
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header styling */
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main content styling */
+main {
+    margin-top: 20px;
+}
+
+/* Post list styling */
+.post-list h2 {
+    margin-bottom: 20px;
+}
+
+.post-list ul {
+    list-style-type: none;
+}
+
+.post-list li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.post-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.post-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Post detail styling */
+.post-detail h1 {
+    margin-bottom: 20px;
+}
+
+.post-detail p {
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Comment section styling */
+.comments {
+    margin-top: 20px;
+}
+
+.comments ul {
+    list-style-type: none;
+}
+
+.comments li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
